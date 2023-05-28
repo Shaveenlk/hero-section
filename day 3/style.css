@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 40%;
+    margin-bottom: 4rem;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+.header-left{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-left ul li{
+    display: inline;
+    padding: 1rem;
+}
+
+.header-left ul li a{
+    color: black;
+}
+
+.header-left ul{
+    margin-top: 2.5rem;
+}
+
+
+.fuck{
+    margin-right: 6.5rem;
+}
+/* <=========hero section==============> */
+
+.hero-section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container{
+    width: 40%;
+    padding: 5rem 4rem;
+}
+
+.text-container h1{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    padding: 0.5rem;
+}
+
+.text-container p{
+    font-size: 1rem;
+    padding: 0.5rem
+}
+.img-container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2rem 0.5rem; */
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* padding: 2rem 0.5rem; */
+}
+
+.arrows{
+    display: flex;
+    width:40%
+}
+
+.arrows img{
+    width: 100%;
+}
+
+.koko{
+    padding: 3rem;
+}
+
+.button{
+    display: inline-block;
+    background-color: #cda4e3;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
